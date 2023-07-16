@@ -6,6 +6,7 @@ import Instagram from '../../public/instagram.svg';
 import Twitter from '../../public/twitter.svg';
 import Linkedin from '../../public/linkedin.svg';
 import ProjectPreview from "../../components/ProjectPreview";
+import Contact from "../../components/Contact";
 
 export default function Home() {
   return (
@@ -86,8 +87,13 @@ export default function Home() {
         description = "Welcome to the metaverse"
         imageUrl = "/food.png"
         websiteUrl = "https://twan-metaverse.netlify.app/"
+        bgColor="#F7B26E"
         />
       </section>
+
+      <footer>
+      <Contact />
+      </footer>
     </>
   );
 }
