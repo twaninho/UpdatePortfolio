@@ -5,6 +5,7 @@ import  Github from "../../public/github.svg";
 import Instagram from '../../public/instagram.svg';
 import Twitter from '../../public/twitter.svg';
 import Linkedin from '../../public/linkedin.svg';
+import ProjectPreview from "../../components/ProjectPreview";
 
 export default function Home() {
   return (
@@ -26,23 +27,66 @@ export default function Home() {
             <div className="flex flex-col lg:flex-row items-center gap-4 justify-self-end">
               <button className="bg-black text-white font-medium py-3 px-12 rounded-full w-60 lg:w-auto">Contact me</button>
               <div className="lg:flex items-center gap-4 hidden">
-                <SocialButton bgColor="github">
+                <SocialButton bgColor="github" socialLink="https://github.com/twaninho">
                   <Github className="w-8 h-8"/>
                 </SocialButton>
-                <SocialButton bgColor="instagram">
+                <SocialButton bgColor="instagram" socialLink="https://www.instagram.com/">
                   <Instagram className="w-5 h-5"/>
                 </SocialButton>
-                <SocialButton bgColor="twitter">
+                <SocialButton bgColor="twitter" socialLink="https://twitter.com/FifaIBRA">
                   <Twitter className="w-5 h-5"/>
                 </SocialButton>
-                <SocialButton bgColor="linkedin">
+                <SocialButton bgColor="linkedin" socialLink="https://www.linkedin.com/in/twan-hopmans-9680b9175/">
                   <Linkedin className="w-5 h-5"/>
                 </SocialButton>
               </div>
             </div>
           </div>
-
           <div className="h-[30rem] rounded-3xl p-8 bg-[url('/profile.jpg')] bg-cover"/>
+      </section>
+
+      <section className="grid grid-cols-1 lg:grid-cols-2 gap-4 my-4">
+        <ProjectPreview 
+        name = "Metaversus"
+        description = "Welcome to the metaverse"
+        imageUrl = "/metaverse.png"
+        bgColor = "#685cdd"
+        dark
+        websiteUrl = "https://twan-metaverse.netlify.app/"
+        />
+        <ProjectPreview 
+        name = "Sushiman"
+        description = "Culinary art perfected"
+        imageUrl = "/sushi.png"
+        bgColor = "#FCD9CE"
+        websiteUrl = "https://sushi-twan.netlify.app/"
+        />
+        <ProjectPreview 
+        name = "Shoppy"
+        description = "Empowering global consumer access"
+        imageUrl = "/chart.png"
+        websiteUrl = "https://shoppy-twan.netlify.app/"
+        />
+        <ProjectPreview 
+        name = "Netflix"
+        description = "Binge-worthy stories, endless delight"
+        imageUrl = "/Netflix.png"
+        bgColor = "#3A3636"
+        dark
+        websiteUrl = "https://twan-metaverse.netlify.app/"
+        />
+        <ProjectPreview 
+        name = "Fitclub"
+        description = "Unleash your inner strength"
+        imageUrl = "/Gym.png"
+        websiteUrl = "https://fitclub-twan.netlify.app/"
+        />
+        <ProjectPreview 
+        name = "Omnifood"
+        description = "Welcome to the metaverse"
+        imageUrl = "/food.png"
+        websiteUrl = "https://twan-metaverse.netlify.app/"
+        />
       </section>
     </>
   );
