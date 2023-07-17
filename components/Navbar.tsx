@@ -11,8 +11,8 @@ const Navbar = () => {
         
         <div className='flex gap-12 text-md text-zinc-400'>
             <Link href="#" className='text-black font-medium'>Home</Link>
-            <Link href="#">Projects</Link>
-            <Link href="#">Contact</Link>
+            <Link href="#projects">Projects</Link>
+            <Link href="#contact">Contact</Link>
         </div>
     </nav>
   )

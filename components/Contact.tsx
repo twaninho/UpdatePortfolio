@@ -7,13 +7,13 @@ import Linkedin from '../public/linkedin.svg';
 
 const Contact = () => {
   return (
-    <div className="h-[25rem] rounded-3xl p-10 flex flex-col bg-[url('/gradient-bg.jpg')] bg-cover">
+    <div id='contact' className="h-[25rem] rounded-3xl p-10 flex flex-col bg-[url('/gradient-bg.jpg')] bg-cover">
             <h1 className="sm:text-4xl text-2xl font-semibold mb-6">Want to work together?</h1>
             <p className='mb-3'>Feel free to reach out for collaborations or just a friendly hello
             </p>
             <p className="sm:flex-1 flex-[0.8]">Twanjhopmans@hotmail.com</p>
             <div className="flex flex-col lg:flex-row items-center gap-4 justify-self-end">
-              <button className="bg-black text-white font-medium py-3 px-12 rounded-full w-60 lg:w-auto">Contact me</button>
+              <button className="bg-black text-white font-medium py-3 px-12 rounded-full w-60 lg:w-auto hover:bg-button transition-all ease-in-out duration-300">Contact me</button>
               <div className="lg:flex items-center gap-4 hidden">
                 <SocialButton bgColor="github" socialLink="https://github.com/twaninho">
                   <Github className="w-8 h-8"/>

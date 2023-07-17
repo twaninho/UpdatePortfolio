@@ -8,7 +8,10 @@ import Linkedin from '../../public/linkedin.svg';
 import ProjectPreview from "../../components/ProjectPreview";
 import Contact from "../../components/Contact";
 
+
 export default function Home() {
+
+
   return (
     <>
       <Head>
@@ -26,7 +29,9 @@ export default function Home() {
               creating user-centric, delightful, and human experiences.
             </p>
             <div className="flex flex-col lg:flex-row items-center gap-4 justify-self-end">
-              <button className="bg-black text-white font-medium py-3 px-12 rounded-full w-60 lg:w-auto">Contact me</button>
+              <a href="#contact">
+              <button className="bg-black text-white font-medium py-3 px-12 rounded-full w-60 lg:w-auto hover:bg-button transition-all ease-in-out duration-300">Contact me</button>
+              </a>
               <div className="lg:flex items-center gap-4 hidden">
                 <SocialButton bgColor="github" socialLink="https://github.com/twaninho">
                   <Github className="w-8 h-8"/>
@@ -46,7 +51,7 @@ export default function Home() {
           <div className="h-[30rem] rounded-3xl p-8 bg-[url('/profile.jpg')] bg-cover"/>
       </section>
 
-      <section className="grid grid-cols-1 lg:grid-cols-2 gap-4 my-4">
+      <section className="grid grid-cols-1 lg:grid-cols-2 gap-4 my-4" id="projects">
         <ProjectPreview 
         name = "Metaversus"
         description = "Welcome to the metaverse"
