@@ -79,7 +79,7 @@ export default function Home() {
         imageUrl = "/Netflix.png"
         bgColor = "#3A3636"
         dark
-        websiteUrl = "https://twan-metaverse.netlify.app/"
+        websiteUrl = "https://netflix-clone-final-lemon.vercel.app/"
         />
         <ProjectPreview 
         name = "Fitclub"
@@ -91,7 +91,7 @@ export default function Home() {
         name = "Omnifood"
         description = "Welcome to the metaverse"
         imageUrl = "/food.png"
-        websiteUrl = "https://twan-metaverse.netlify.app/"
+        websiteUrl = "https://omnifood-twaninho.netlify.app/"
         bgColor="#F7B26E"
         />
       </section>
