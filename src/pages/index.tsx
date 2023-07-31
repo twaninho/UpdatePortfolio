@@ -30,7 +30,7 @@ export default function Home() {
             </p>
             <div className="flex flex-col lg:flex-row items-center gap-4 justify-self-end">
               <a href="#contact">
-              <button className="bg-black text-white font-medium sm:py-3 sm:px-11 py-2 px-8 rounded-full lg:w-auto hover:bg-button transition-all ease-in-out duration-300">Contact me</button>
+              <button className="bg-black text-white font-medium py-3 px-11 rounded-full lg:w-auto hover:bg-button transition-all ease-in-out duration-300">Contact me</button>
               </a>
               <div className="lg:flex items-center gap-4 hidden">
                 <SocialButton bgColor="github" socialLink="https://github.com/twaninho">
