@@ -7,7 +7,7 @@ import Linkedin from '../public/linkedin.svg';
 
 const Contact = () => {
   return (
-    <div id='contact' className="h-[20rem] items-center rounded-3xl p-10 flex flex-col bg-[url('/gradient-bg.jpg')] bg-cover">
+    <div id='contact' className="sm:h-[17rem] h-[19rem] items-center rounded-3xl p-10 flex flex-col bg-[url('/gradient-bg.jpg')] bg-cover">
             <h1 className="sm:text-6xl text-3xl text-center font-semibold mb-8">Want to work together?</h1>
             <p className='mb-3 text-center'>Feel free to reach out for collaborations or just a friendly hello
             </p>
