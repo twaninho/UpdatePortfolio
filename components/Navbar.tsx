@@ -9,7 +9,7 @@ const Navbar = () => {
             <span className='text-sm font-semibold tracking-widest'>TWAN</span>
         </div>
         
-        <div className='flex gap-10 text-md text-zinc-400'>
+        <div className='flex sm:gap-12 gap-10 text-md text-zinc-400'>
             <Link href="#" className='text-black font-medium' scroll={false}>Home</Link>
             <Link href="#projects" scroll={false}>Projects</Link>
             <Link href="#contact" scroll={false}>Contact</Link>
