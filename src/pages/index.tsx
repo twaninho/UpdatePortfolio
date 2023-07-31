@@ -96,7 +96,7 @@ export default function Home() {
         />
       </section>
 
-      <footer>
+      <footer className="mb-4">
       <Contact />
       </footer>
     </>
